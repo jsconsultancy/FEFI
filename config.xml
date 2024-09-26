@@ -1,0 +1,20 @@
+<config>
+    <ise>
+        <hostname>10.1.99.60/hostname>
+        <username>admin</username>
+        <password>ISEisC00L</password>
+    </ise>
+    <ftp>
+        <hostname>192.168.1.100</hostname>
+        <username>ftpuser</username>
+        <password>ftppassword</password>
+        <backup_dir>/backups</backup_dir>
+    </ftp>
+    <backup>
+        <name>ise-backup</name>
+        <encryption_key>MyKey1234</encryption_key>  <!-- Add the encryption key here -->
+    </backup>
+    <options>
+        <preserve_ssl>true</preserve_ssl>
+    </options>
+</config>
